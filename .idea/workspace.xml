@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="01ff5420-e629-4d89-b2c5-e5e439a38aff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run_ner_span.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/run_ner_span.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/build_label_vocab.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/build_label_vocab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/span_utils/ner_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/span_utils/ner_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_data/pretrain_model/bert-base-chinese/config.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +48,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_data/pretrain_model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_data/pretrain_model/bert-base-chinese" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\BERT_SPAN_NER_torch\user_data\pretrain_model\bert-base-chinese" />
+      <recent name="F:\BERT_SPAN_NER_torch\raw_data" />
       <recent name="F:\BERT_SPAN_NER_torch\user_data\pretrain_model" />
     </key>
   </component>
@@ -47,6 +71,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/utils/build_label_vocab.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ner_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BERT_SPAN_NER_torch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/utils/span_utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/utils/span_utils/ner_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="process_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BERT_SPAN_NER_torch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/utils/process_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,8 +166,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_ner_span" />
-        <item itemvalue="Python.ss" />
         <item itemvalue="Python.build_label_vocab" />
+        <item itemvalue="Python.ner_utils" />
+        <item itemvalue="Python.process_data" />
+        <item itemvalue="Python.ss" />
       </list>
     </recent_temporary>
   </component>
@@ -116,22 +184,33 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1395" height="378" key="GridCell.Tab.0.bottom" timestamp="1646621799811">
+    <state width="1395" height="331" key="GridCell.Tab.0.bottom" timestamp="1646643962368">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1395" height="378" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1646621799811" />
-    <state width="1395" height="378" key="GridCell.Tab.0.center" timestamp="1646621799811">
+    <state width="1395" height="331" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1646643962368" />
+    <state width="1395" height="331" key="GridCell.Tab.0.center" timestamp="1646643962368">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1395" height="378" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1646621799811" />
-    <state width="1395" height="378" key="GridCell.Tab.0.left" timestamp="1646621799811">
+    <state width="1395" height="331" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1646643962368" />
+    <state width="1395" height="331" key="GridCell.Tab.0.left" timestamp="1646643962368">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1395" height="378" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1646621799811" />
-    <state width="1395" height="378" key="GridCell.Tab.0.right" timestamp="1646621799811">
+    <state width="1395" height="331" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1646643962368" />
+    <state width="1395" height="331" key="GridCell.Tab.0.right" timestamp="1646643962368">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1395" height="378" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1646621799811" />
+    <state width="1395" height="331" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1646643962368" />
   </component>
 </project>

@@ -6,9 +6,9 @@ import warnings
 from argparse import ArgumentParser
 
 from src.utils.bert_utils import *
+from src.utils.utils import save_pickle
 from src.utils.span_utils.ner_utils import *
 from src.utils.span_utils.vocab import ItemVocabFile
-from src.utils.utils import save_pickle, load_pkl, load_file, save_pkl
 
 
 def read_data(args, tokenizer, label_vocab):
@@ -203,7 +203,7 @@ def main(ner_type):
     parser.add_argument('--do_lower_case', type=bool, default=True)
 
     parser.add_argument('--do_eval', type=bool, default=True)
-    parser.add_argument('--print_entity_info', type=bool, default=True)
+    parser.add_argument('--print_entity_info', type=bool, default=False)
 
     parser.add_argument('--num_epochs', type=int, default=15)
     parser.add_argument('--batch_size', type=int, default=8)
