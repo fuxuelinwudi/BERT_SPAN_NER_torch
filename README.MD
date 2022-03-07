@@ -6,7 +6,7 @@
 
 ## 3.run src/utils/build_label_vocab.py
 
-## 4.run src/run_ner_crf.py
+## 4.run src/run_ner_span.py
 
 
 # If you like it, you can star it !
